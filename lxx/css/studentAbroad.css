@@ -1,0 +1,103 @@
+/* 
+* @Author: Marte
+* @Date:   2016-12-08 15:36:15
+* @Last Modified by:   Marte
+* @Last Modified time: 2016-12-20 16:40:30
+*/
+.summerContent{
+    width:1000px;
+    height:auto;
+    margin:0 auto;
+    padding-bottom:80px;
+}
+.summerTab{
+    padding:0 15px;
+    height:130px;
+}
+.summerTab p{
+    width:150px;
+    text-align:left;
+    line-height:130px;
+    font-size:24px;
+    color:#0a515b;
+}
+.tabDiv{
+    width:650px;
+    height:130px;
+    font-size:24px;
+    color:#0a515b;
+}
+.tabDiv ul li{
+    width:130px;
+    float:left;
+    line-height:130px;
+    text-align:center;
+    cursor:pointer;
+} 
+.tabDiv ul li span.addspan{
+    /*display:inline-block;*/
+    height:37px;
+    padding-bottom:2px;
+    border-bottom:2px solid #0a515b;
+    margin:0 auto;
+    margin-top:44.5px;
+}
+.tabContent{
+    height:auto;
+} 
+.tabContent ul li.fatherLi{
+    display:none;
+    height:auto;
+    width:1000px;
+}
+.contentText{
+    height:auto;
+}
+.contentText ul li{
+    width:966px;
+    height:210px;
+    border:1px solid #36a7ad;
+    margin-bottom:15px;
+    background:#fff;
+    padding:25px 15px;
+    cursor:pointer;
+}
+.contentText ul li dl dt{
+    width:300px;
+    height:210px;
+}
+.contentText ul li dl dd{
+    width:585px;
+    height:210px;
+}
+.pTitle{
+    font-weight:bold;
+    line-height:34px;
+    text-align:left;
+    color:#0a515b;
+    font-size:20px;
+}
+.pContent{
+    padding:6px 0;
+    padding-left:10px;
+    font-size:15px;
+    text-align:justify;
+    letter-spacing: 1.2px;
+    line-height:23px;
+}
+.pAge{
+    height:24px;
+    padding-left:10px;
+    line-height:24px;   
+}
+.pAge img{
+    vertical-align: middle;
+}
+.psAge{
+    width:300px;
+    height:24px;
+    margin-left:10px;
+    color:#0a515b;
+    font-size:18px;
+    font-weight:bold;
+}

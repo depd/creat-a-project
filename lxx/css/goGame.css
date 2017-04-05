@@ -1,0 +1,60 @@
+/* 
+* @Author: Marte
+* @Date:   2016-12-08 15:57:52
+* @Last Modified by:   Marte
+* @Last Modified time: 2016-12-12 10:28:39
+*/
+.goGameContent{
+    width:1000px;
+    height:auto;
+    margin:0 auto;
+}
+.textTitle{
+    width:1000px;  
+    height:124px; 
+    padding-top:20px;
+}
+.textEnglish,.textChina{
+    line-height:62px;
+    font-size:36px;
+    color:#0a515b;
+    text-align:center;
+    font-weight:bold;
+}
+.contentHead{
+    padding:0 15px;
+    height:50px;
+    line-height:50px;
+    color:#0a515b;
+    font-weight:bold;
+}
+.contentText{
+    height:auto;
+}
+.contentText ul li{
+    border-top:2px solid #0a515b;
+    padding-bottom:30px;
+    height:auto;
+}
+.ptitle{
+    color:#0a515b;
+    font-size:24px;
+    padding:0 15px;
+    text-align:left;
+    line-height:60px;
+}
+.pContent{
+    text-indent:1em;
+    padding:0 15px;
+    font-size:16px; 
+    font-family:"黑体"; 
+}
+.addImg{
+    height:265px;
+    padding-top:20px;
+}
+.addImg .imgl{
+    width:490px;
+    height:260px;
+}
+

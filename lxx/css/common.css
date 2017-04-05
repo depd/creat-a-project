@@ -1,0 +1,369 @@
+/* 
+* @Author: Marte
+* @Date:   2016-12-08 15:36:43
+* @Last Modified by:   Marte
+* @Last Modified time: 2016-12-20 16:48:27
+*/
+*{
+    margin:0;
+    padding:0;
+   font-family:"微软雅黑";
+}
+a{
+    color:#000;
+}
+ul li{
+    list-style: none;
+}
+input,button{
+    outline:none;
+}
+body,html{
+    min-width:1200px;
+    background:url(../images/commo/contentBg.png) left top;
+}
+.fl{
+    float:left;
+}
+.fr{
+    float:right;
+}
+@font-face{
+    font-family: 'MyNewFont';   /*字体名称*/
+    src:url('fzhzgbjw.ttf'); 
+    src:url("myfont.TTF");
+    src:url("fontsize.TTF");
+} 
+.MyNewFont{
+    font-family: 'MyNewFont';     
+}
+.head{
+    width:1000px;
+    height:80px;
+    background:url(../images/commo/logoBg.png);
+    margin:0 auto;
+}
+.header{
+    width:985px;
+    height:80px;
+    margin:0 auto;
+    padding-left:15px;
+}
+.logo{
+    width:160px;
+    height:100%;
+    background:url(../images/commo/logo.png) no-repeat center center;
+    background-size:100% auto;
+}
+.logoul{
+    width:560px;
+    height:100%;
+    margin-left:20px;
+}
+.logoul ul li{
+    /* width:130px; */
+    height:80px;
+    text-align:center;
+    line-height:80px;
+    color:#47c5c8;
+    font-size:16px;
+    float:left;
+    cursor:pointer;
+    padding:0 20px;
+}
+.chat{
+    width:48px;
+    height:100%;
+    background:url(../images/commo/chat.png) no-repeat center center;
+    position:relative;
+    cursor:pointer;
+    z-index:10;
+}
+.chatBg{
+    position:absolute;
+    width:112px;
+    height:131px;
+    background:url(../images/commo/bgBg.png) no-repeat center center;
+    top:90px;
+    left:-32px;
+    z-index:10;
+    display:none;
+}
+.chatBg img{
+    display:inline-block;
+    margin-top:16px;
+    margin-left:6px;
+}
+.chatBg p{
+    font-size:14px;
+    text-align:center;
+    line-height:24px;
+    margin-top:-10px;
+}
+.phone{
+    width:48px;
+    height:100%;
+    margin-left:16px;
+    background:url(../images/commo/phone1.png) no-repeat center center;  
+    cursor:pointer;
+    position:relative;  
+}
+.phoneBg{
+    width:180px;
+    height:60px;
+    background:url(../images/commo/phoneNumber.png) no-repeat center top;
+    position:absolute;
+    top:90px;
+    left:-56px;
+    z-index:101;
+    display:none;
+}
+.phoneBg img{
+    display:block;
+    margin:0 auto;
+    margin-top:14px;
+}
+.register{
+    width:95px;
+    height:40px;
+    border:1px solid #71d1d5;
+    border-radius:6px;
+    margin-top:19px;
+    margin-right:15px;
+    position:relative;
+    cursor:pointer;
+}
+.register img{
+    display:inline-block;
+    margin:8px 7px 0 10px;
+}
+.register p{
+    position:absolute;
+    width:58px;
+    display:inline-block;
+    color:#71d1d5;
+    top:11px;
+    left:34px;
+    font-size:14px;
+}
+.footer{
+    width:1000px;
+    height:170px;
+    background:#0b6d74;
+    margin:0 auto;
+    margin-bottom:10px;
+}
+.footContent{
+    width:1000px;
+    height:170px;
+    margin:0 auto;
+}
+.footLeft{
+    width:350px;
+    height:170px;
+    margin-left:15px;
+}
+.footPhone{
+    width:300px;
+    margin-top:28px;
+    height:44px;
+}
+.footPhone img{
+    float:left;
+}
+.footPhones{
+    color:#fff;
+    font-size:28px;
+    letter-spacing: 5px;
+    padding-top:3px;
+}
+.footTitle{
+    margin-top:10px;
+    line-height:28px;
+    color:#fff;
+    font-size:14px;
+    letter-spacing: 1.1px;
+}
+.footRight{
+    margin-top:20px;
+    margin-right:15px;
+}
+.footRight p{
+    text-align:center;
+    line-height:30px;
+    color:#fff;
+}
+.logoul ul li.addBgColor{
+    background:#f8b82c;
+    color:#fff;
+}
+.partner{
+    width:470px;
+    height:100px;
+    margin-top:30px;
+    background:url("../images/commo/footerPartner.png") no-repeat left top;
+    background-size:100% auto;
+}
+.cover{
+    width:100%;
+    height:100%;
+    position:fixed;
+    top:0;
+    left:0;
+    background:#000;
+    filter:alpha(opacity=40);
+    opacity:0.4;
+    z-index:100;
+    display:none;
+}
+.covers{
+    width:680px;
+    height:470px;
+    position:fixed;
+    left:50%;
+    top:0;
+    margin-left:-340px;
+    margin-top:150px;
+    background:url("../images/commo/coversBg.png") no-repeat center center;
+    z-index:10001;
+    display:none;
+}
+.information{
+    width:490px;
+    height:430px;
+    padding:0 95px;
+    padding-bottom:40px;
+    position:relative;
+}
+.covers .closed{
+    width:26px;
+    height:28px;
+    position:absolute;
+    top:-12px;
+    right:12px;
+    background:url("../images/commo/closedone.png") center center;
+    cursor:pointer;
+}
+.inforLogo{
+    display:block;
+    margin:0 auto;
+    margin-top:25px;
+}
+.inforTitle{
+    text-align:center;
+    font-size:28px;
+    color:#47c5c8;
+    letter-spacing:12px;
+    padding:10px 0;
+}
+.privateName,.privatePhone,.provateCode{
+    height:70px;
+}
+.nameValue,.phoneValue,.codeValue{
+    width:438px;
+    height:22px;
+    border:1px solid #aee7e8;
+    position:relative;
+    padding:12px 20px;
+    border-radius:4px;
+}
+#formName,#formPhone,#formCode{
+    width:340px;
+    margin-left:62px;
+    display: block;
+    border-radius: 0;
+    border: 0;
+    outline: 0;
+    height: 22px;
+    line-height: 22px;
+    font-size: 16px;
+    padding: 0;
+    color: #000;
+}
+.label1{
+    display:block;
+    position:absolute;
+    top:0;
+    left:10px;
+    padding:13px 0;
+    line-height:20px;
+    height:20px;
+    overflow:hidden;
+    color:#aee7e8;
+    font-size:16px;
+    background:#fff;
+    pointer-events: none; 
+}
+.codeWord{
+    position:absolute;
+    width:170px;
+    height:48px;
+    text-align:center;
+    line-height:48px;
+    color:#47c5c8;
+    font-size:16px;
+    right:0;
+    top:0;
+    border-left:1px solid #aee7e8;
+    cursor:pointer;
+}
+.immediate{
+    width:100%;
+    height:50px;
+    background:#47c5c8;
+    text-align:center;
+    line-height:50px;
+    color:#fff;
+    cursor:pointer;
+}
+.namep,.phonep,.codep{
+    font-size:12px;
+    color:red;
+}
+.registerSuccess{
+    width:680px;
+    height:470px;
+    position:fixed;
+    left:50%;
+    top:0;
+    margin-left:-340px;
+    margin-top:150px;
+    background:url("../images/commo/coversBg.png") no-repeat center center;
+    z-index:10001;
+    display:none;
+}
+.imgs{
+    width:360px;
+    height:360px;
+    margin:0 auto;
+    background:url("../images/commo/registerSuccess.png") no-repeat center center;
+}
+.refer{
+    color:#0660c6;
+    text-align:center;
+    line-height:30px;
+    font-size:20px;
+    font-weight:bold;
+}
+.connet{
+    color:#0660c6;
+    text-align:center;
+    line-height:24px;
+    font-size:14px;
+    padding-top:10px;
+}
+.registerSuccess .closed{
+    width:26px;
+    height:28px;
+    position:absolute;
+    top:12px;
+    right:12px;
+    background:url("../images/commo/closed.png") center center;
+    cursor:pointer;
+}
+.addBorder{
+    border:1px solid #47c5c8;
+}
+.addColor{
+    color:#47c5c8;
+}

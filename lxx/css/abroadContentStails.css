@@ -1,0 +1,214 @@
+/* 
+* @Author: Marte
+* @Date:   2016-12-12 14:17:39
+* @Last Modified by:   Marte
+* @Last Modified time: 2016-12-12 14:17:40
+*/
+/* 
+* @Author: Marte
+* @Date:   2016-12-09 11:39:53
+* @Last Modified by:   Marte
+* @Last Modified time: 2016-12-12 14:13:21
+*/
+.contentStails{
+    width:958px;
+    height:auto;
+    background:#fff;
+    margin:0 auto;
+    border:1px solid #36a7ad;
+    padding:20px;
+    margin-top:60px;
+    margin-bottom:25px;
+}
+.whichSchool{
+    height:210px;
+}
+.whichSchool dt{
+    width:350px;
+    height:210px;
+}
+.whichSchool dd{
+    width:585px;
+    height:210px;
+}
+.pTitle{
+    font-weight:bold;
+    line-height:34px;
+    text-align:left;
+    color:#0a515b;
+    font-size:20px;
+}
+.pContent{
+    padding:6px 0;
+    padding-left:10px;
+    font-size:15px;
+    text-align:justify;
+    letter-spacing: 1.2px;
+    line-height:23px;
+}
+.pAge{
+    height:24px;
+    padding-left:10px;
+    line-height:24px;   
+}
+.pAge img{
+    vertical-align: middle;
+}
+.psAge{
+    width:300px;
+    height:24px;
+    margin-left:10px;
+    color:#0a515b;
+    font-size:18px;
+    font-weight:bold;
+}
+.schoolStails{
+    height:auto;
+}
+.classActive{
+    height:auto;
+    padding-top:20px;
+}
+.perIntro{
+    height:43px;
+    background:url("../images/abroadStails/thirdBg.png") no-repeat left top;
+    padding-right:46px;
+    border-bottom:2px solid #39a7ad;
+}
+.perIntro p{
+    width:138px;
+    height:43px;
+    text-align:center;
+    line-height:43px;
+    color:#fff;
+    font-size:20px;
+    letter-spacing:4px;
+}
+.thisWord{
+    height:auto;
+    padding:5px 0;
+    font-size:15px;
+    padding-left:2px;
+    width:956px;
+}
+.thisImg{
+    height:210px;
+    margin-top:5px;
+}
+.thisImg ul li{
+    float:left;
+}
+.img1{
+    width:210px;
+    height:210px;
+    background:url("../images/abroadStails/stails1.png") no-repeat center center;
+    margin-right:39px;
+}
+.img2{
+    width:210px;
+    height:210px;
+    background:url("../images/abroadStails/stails2.png") no-repeat center center;
+    margin-right:39px;
+}
+.img3{
+    width:210px;
+    height:210px;
+    background:url("../images/abroadStails/stails3.png") no-repeat center center;
+    margin-right:39px;
+}
+.img4{
+    width:210px;
+    height:210px;
+    background:url("../images/abroadStails/stails4.png") no-repeat center center;
+}
+.img5{
+    width:210px;
+    height:210px;
+    background:url("../images/abroadStails/stails5.png") no-repeat center center;
+}
+.img11{
+    width:300px;
+    height:210px; 
+    background:url("../images/abroadStails/stails1.png") no-repeat center center;  
+    margin-right:28px;  
+}
+.img22{
+    width:300px;
+    height:210px;
+    background:url("../images/abroadStails/stails2.png") no-repeat center center;  
+    margin-right:28px;  
+}
+.img33{
+    width:300px;
+    height:210px;
+    background:url("../images/abroadStails/stails3.png") no-repeat center center;  
+}
+.img111{
+    width:100%;
+    height:210px;
+    background:url("../images/abroadStails/stails1.png") no-repeat center -80px;
+    background-size:100% auto;
+}
+.browse{
+    height:150px;
+    padding:20px 0;
+}
+.browse dt{
+    width:320px;
+    height:150px;
+    background:url("../images/abroadStails/stails4.png") no-repeat center center;
+}
+.browse dd{
+    width:610px;
+    height:150px;
+    margin-right:5px;
+}
+.Schoolcity{
+    color:#0a515b;
+    font-size:20px;
+    line-height:50px;
+    text-align:left;
+    font-weight:bold;
+}
+.sityStails{
+    letter-spacing:1.6px;
+    font-size:15px;
+    text-align:justify;
+    line-height:22px;
+}
+.carous{
+    width:100%;
+    height:210px;
+    padding:30px 0 10px 0;
+    overflow:hidden;
+}
+.carous ul{
+    width:400%;
+    height:210px;
+}
+.carous ul li{
+    width:210px;
+    height:210px;
+    float:left;
+    margin-right:27px;
+}
+.carous ul li.carous1{
+    background:url("../images/abroadStails/stails1.png") no-repeat center center;
+    /* margin-right:27px; */
+}
+.carous ul li.carous2{
+    background:url("../images/abroadStails/stails2.png") no-repeat center center;
+    /* margin-right:27px; */
+}
+.carous ul li.carous3{
+    background:url("../images/abroadStails/stails3.png") no-repeat center center;
+    /* margin-right:27px; */
+}
+.carous ul li.carous4{
+    background:url("../images/abroadStails/stails4.png") no-repeat center center;
+    /* margin-right:27px; */
+}
+.carous ul li.carous5{
+    background:url("../images/abroadStails/stails5.png") no-repeat center center;
+    /* margin-right:27px; */
+}
